@@ -7,6 +7,9 @@ var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 
+var defaultMov = "Mr. Nobody";
+var defaultSong = "The Sign";
+
 var command = process.argv[2];
 var userSearch = process.argv.slice(3).join(" ");
 
@@ -39,9 +42,7 @@ function runLiri (command, userSearch) {
 
 
 // CONCERT THIS -- Bands in Town
-
 var moment = require('moment');
-var artist = userSearch;
 
 function concertThis(artist) {
   
@@ -71,10 +72,9 @@ function concertThis(artist) {
 
 
 // SPOTIFY THIS -- Spotify
-
 function spotifyThis(songTitle) {
   if (!songTitle) {
-    songTitle = "The Sign";
+    songTitle = defaultSong;
   };
 
   spotify.search({ type: 'track', query: songTitle }, function(err, data) {
@@ -104,18 +104,15 @@ function spotifyThis(songTitle) {
 
 
 // MOVIE THIS -- OMDB
-
-var movieTitle = userSearch;
-
 function movieThis(movieTitle) {
   
   var omdbURL = "https://www.omdbapi.com/?t=" + movieTitle + "&y=&plot=short&apikey=trilogy";
 
   if (!movieTitle) {
-      movieTitle = "Mr. Nobody";
-         console.log("If you haven't watched 'Mr. Nobody', then you should: <http://www.imdb.com/title/tt0485947/>")
-         console.log("It's on Netflix!")
-      };
+      movieTitle = defaultMov;
+         console.log(`If you haven't watched '${defaultMov}', then you should: <http://www.imdb.com/title/tt0485947/>`);
+         console.log("It's on Netflix!");
+      }
 
   axios
     .get(omdbURL).then(function(response) {
