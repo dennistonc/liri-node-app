@@ -12,36 +12,36 @@ Using the commands: `concert-this`, `spotify-this-song`, `movie-this`, and `do-w
 **concert-this:**
 To use `concert-this` as a node command, we input node liri.js concert-this *Artist Name* in the command line.
 It should spit back information regarding the next upcoming concert for the user input artist.
-![Image of concert-this](https://imgur.com/y4th8y9)
+*See Figure 1*
 This info appends to the log.txt file.
 
 **spotify-this-song:**
 To use `spotify-this-song` as a node command, we input node liri.js spotify-this-song *Song Name* in the command line.
 It should spit back information regarding the closest match for the user input song.
-![Image of spotify-this-song](https://imgur.com/F2cS0NT)
+*See Figure 2*
 If no song is input, a default song is chosen.
-![Image of spotify-this-song default](https://imgur.com/lYsEXQq)
+*See Figure 3*
 This info appends to the log.txt file.
 
 **movie-this:**
 To use `movie-this` as a node command, we input node liri.js movie-this *Movie Name* in the command line.
 It should spit back information regarding the closest match for the user input movie.
-![Image of movie-this](https://imgur.com/FyqL7Fd)
+*See Figure 4*
 If no movie is input, a default song is chosen.
-![Image of movie-this default](https://imgur.com/MBD8CfZ)
+*See Figure 5*
 This info appends to the log.txt file.
 
 **do-what-it-says:**
 To use `do-what-it-says` as a node command, we input node liri.js do-what-it-says in the command line.
 It should run the command that was input in the random.txt file.
-![Image of Yaktocat](https://imgur.com/4MCpamW)
-![Image of Yaktocat](https://imgur.com/8AmcTo3)
-![Image of Yaktocat](https://imgur.com/ebLb3vG)
+*See Figure 6*
+*See Figure 7*
+*See Figure 8*
 
 **log.txt file**
 Here is what the log.txt file looks like after it has logged a few of the LIRI commands!
-![Image of Yaktocat](https://imgur.com/mowiJgr)
+*See Figure 9*
 
 
-##### IMG Album Here
-**https://imgur.com/a/rNqblmF**
+### IMG Album Here
+**https://imgur.com/a/E8YTXq4**
