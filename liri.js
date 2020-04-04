@@ -106,7 +106,7 @@ function spotifyThis(songTitle) {
 // MOVIE THIS -- OMDB
 function movieThis(movieTitle) {
   
-  var omdbURL = "https://www.omdbapi.com/?t=" + movieTitle + "&y=&plot=short&apikey=trilogy";
+  var omdbURL = "http://www.omdbapi.com/?t=" + movieTitle + "&y=&plot=short&apikey=trilogy";
 
   if (!movieTitle) {
       movieTitle = defaultMov;
@@ -123,7 +123,7 @@ function movieThis(movieTitle) {
        ${console.log('Country of Production: ' + response.data.Country)};
        ${console.log('Language: ' + response.data.Language)};
        ${console.log('Plot: ' + response.data.Plot)};
-       ${console.log('Actors: ' + response.data.Actors)};`;
+       ${console.log('Actors: ' + response.data.Actors)}`;
 
        var movieInfo = '\nTitle: ' + response.data.Title + '\nYear: ' + response.data.Year + '\nIMDB Rating: ' + response.data.Ratings[0].Value + '\nRotten Tomatoes Rating: ' + response.data.Ratings[1].Value + '\nCountry of Production: ' + response.data.Country + '\nLanguage: ' + response.data.Language + '\nPlot: ' + response.data.Plot + '\nActors: ' + response.data.Actors + "\n";
 
