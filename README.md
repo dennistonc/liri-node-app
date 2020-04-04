@@ -11,35 +11,35 @@ Using the commands: `concert-this`, `spotify-this-song`, `movie-this`, and `do-w
 
 **concert-this:**
 To use `concert-this` as a node command, we input node liri.js concert-this *Artist Name* in the command line.
-It should spit back information regarding the next upcoming concert for the user input artist.
-*See Figure 1*
+It should spit back information regarding the next upcoming concert for the user input artist.<br />
+*See Figure 1*<br />
 This info appends to the log.txt file.
 
 **spotify-this-song:**
 To use `spotify-this-song` as a node command, we input node liri.js spotify-this-song *Song Name* in the command line.
-It should spit back information regarding the closest match for the user input song.
-*See Figure 2*
-If no song is input, a default song is chosen.
-*See Figure 3*
+It should spit back information regarding the closest match for the user input song.<br />
+*See Figure 2*<br />
+If no song is input, a default song is chosen.<br />
+*See Figure 3*<br />
 This info appends to the log.txt file.
 
 **movie-this:**
 To use `movie-this` as a node command, we input node liri.js movie-this *Movie Name* in the command line.
-It should spit back information regarding the closest match for the user input movie.
-*See Figure 4*
-If no movie is input, a default song is chosen.
-*See Figure 5*
+It should spit back information regarding the closest match for the user input movie.<br />
+*See Figure 4*<br />
+If no movie is input, a default song is chosen.<br />
+*See Figure 5*<br />
 This info appends to the log.txt file.
 
 **do-what-it-says:**
 To use `do-what-it-says` as a node command, we input node liri.js do-what-it-says in the command line.
-It should run the command that was input in the random.txt file.
-*See Figure 6*
-*See Figure 7*
+It should run the command that was input in the random.txt file.<br />
+*See Figure 6*<br />
+*See Figure 7*<br />
 *See Figure 8*
 
 **log.txt file**
-Here is what the log.txt file looks like after it has logged a few of the LIRI commands!
+Here is what the log.txt file looks like after it has logged a few of the LIRI commands!<br />
 *See Figure 9*
 
 
