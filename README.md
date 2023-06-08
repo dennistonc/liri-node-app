@@ -30,7 +30,7 @@ This info appends to the log.txt file.
 To use `movie-this` as a node command, we input node liri.js movie-this __*Movie Name*__ in the command line.
 It should spit back information regarding the closest match for the user input movie.<br />
 *See Figure 4*<br />
-If no movie is input, a default song is chosen.<br />
+If no movie is input, a default movie is chosen.<br />
 *See Figure 5*<br />
 This info appends to the log.txt file.
 
